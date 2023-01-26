@@ -40,3 +40,4 @@ async function buscaEndereco(cep) {
 
 var cep = document.getElementById('cep');
 cep.addEventListener("focusout", () => buscaEndereco(cep.value));
+// focusout = evento disparado após selecionar o campo e sair dele, ao sair o evento é lançado
